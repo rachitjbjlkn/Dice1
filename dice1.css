@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(10, 9, 9);
+}
+.container{
+        
+    margin-top: 90px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    border-radius: 16px;
+   border: 1px solid wrgb(6, 69, 19);
+    background-color:rgba(241, 240, 240, 0.195);
+    border: 5px solid gray;
+}
+.p{ 
+    display: flex;
+    font-family: cursive;
+    color: rgb(24, 185, 24);
+    text-shadow: -1px 0 2px black;
+    
+    justify-content: space-around;
+}
+h1{
+    font-size: 2.2em;
+    font-family: cursive;
+    
+    color: rgba(89, 245, 245, 0.931);
+}
+h1::first-letter{
+    font-size: 1.1em; 
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 60px;
+    
+}
+button{
+    padding: 7px;
+    font-weight: bold;
+    letter-spacing: 1px;
+   color: white;
+   text-shadow: -1px 0 1px black;
+    width: 140px;
+    border-radius: 9px;
+    font-family: cursive;
+    background-color: rgb(179, 120, 32);
+}
+.img1,.img2{
+    filter: drop-shadow(0 0 8px rgb(255, 229, 33));
+}
+button:active{
+    background-color: brown;
+}
